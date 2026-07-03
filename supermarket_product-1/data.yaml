@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['supermarket-product']
+
+roboflow:
+  workspace: rasulbeks-workspace-bwa7o
+  project: supermarket_product
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rasulbeks-workspace-bwa7o/supermarket_product/dataset/1
